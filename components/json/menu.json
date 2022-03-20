@@ -1,0 +1,232 @@
+{
+  "menuleft": [
+    {
+      "type": "MEGA-DROPDOWN",
+      "text": "Home",
+      "children": [
+        {
+          "title": "HOMEPAGE",
+          "content": [
+            { "text": "Demo 01", "tag": "", "link": "demo-01" },
+            { "text": "Demo 02", "tag": "", "link": "demo-02" },
+            {
+              "text": "Demo 03",
+              "tag": "coming",
+              "link": "demo-03",
+              "color": "green"
+            },
+            { "text": "Demo 04", "tag": "", "link": "demo-04" },
+            { "text": "Demo 05", "tag": "", "link": "demo-05" },
+            { "text": "Demo 06", "tag": "", "link": "demo-06" },
+            { "text": "Demo 07", "tag": "", "link": "demo-07" },
+            { "text": "Demo 08", "tag": "", "link": "demo-08" },
+            { "text": "Demo 09", "tag": "", "link": "demo-09" },
+            { "text": "Demo 10", "tag": "", "link": "demo-10" },
+            { "text": "Demo 11", "tag": "", "link": "demo-11" },
+            { "text": "Demo 12", "tag": "", "link": "demo-12" },
+            {
+              "text": "Demo 13",
+              "tag": "coming",
+              "link": "demo-13",
+              "color": "green"
+            },
+            {
+              "text": "Demo 14",
+              "tag": "coming",
+              "link": "demo-14",
+              "color": "green"
+            },
+            { "text": "Demo 15", "tag": "", "link": "demo-15" },
+            { "text": "Demo 16", "tag": "", "link": "demo-16" },
+            { "text": "Demo 17", "tag": "", "link": "demo-17" },
+            {
+              "text": "Demo 18",
+              "tag": "coming",
+              "link": "demo-18",
+              "color": "green"
+            },
+            { "text": "Demo 19", "tag": "", "link": "demo-19" }
+          ]
+        },
+        {
+          "title": "HEADER",
+          "content": [
+            { "text": "Header 01", "tag": "", "link": "header-01" },
+            { "text": "Header 02", "tag": "", "link": "header-02" },
+            { "text": "Header 03", "tag": "", "link": "header-03" },
+            { "text": "Header 04", "tag": "", "link": "header-04" },
+            { "text": "Header 05", "tag": "", "link": "header-05" },
+            { "text": "Header 06", "tag": "", "link": "header-06" },
+            { "text": "Header 07", "tag": "", "link": "header-07" },
+            { "text": "Header 08", "tag": "", "link": "header-08" },
+            { "text": "Header 09", "tag": "", "link": "header-09" },
+            { "text": "Header 10", "tag": "", "link": "header-10" },
+            { "text": "Header 11", "tag": "", "link": "header-11" },
+            { "text": "Header 12", "tag": "", "link": "header-12" },
+            { "text": "Header 13", "tag": "", "link": "header-13" },
+            { "text": "Header 14", "tag": "", "link": "header-14" },
+            { "text": "Header 15", "tag": "", "link": "header-15" },
+            { "text": "Header 16", "tag": "", "link": "header-16" },
+            { "text": "Header 17", "tag": "", "link": "header-17" },
+            { "text": "Header 18", "tag": "", "link": "header-18" },
+            { "text": "Header 19", "tag": "", "link": "header-19" },
+            { "text": "Header 20", "tag": "", "link": "header-20" }
+          ]
+        }
+      ],
+      "banner": ""
+    },
+    {
+      "type": "MEGA-DROPDOWN",
+      "text": "Categories",
+      "children": [
+        {
+          "title": "VARIATIONS 1",
+          "content": [
+            {
+              "text": "Banner With Sidebar",
+              "tag": "",
+              "link": "banner-with-sidebar"
+            },
+            { "text": "Boxed Banner", "tag": "", "link": "boxed-banner" },
+            {
+              "text": "Infinite Ajaxscroll",
+              "tag": "",
+              "link": "infinite-ajaxcroll"
+            },
+            {
+              "text": "Horizontal Filter",
+              "tag": "",
+              "link": "horizontal-filter"
+            },
+            {
+              "text": "Navigation Filter",
+              "tag": "HOT",
+              "link": "navigation-filter"
+            },
+            {
+              "text": "Off-Canvas Filter",
+              "tag": "",
+              "link": "off-canvas-filter"
+            },
+            {
+              "text": "Right Toggle Sidebar",
+              "tag": "",
+              "link": "right-toggle-sidebar"
+            }
+          ]
+        },
+        {
+          "title": "VARIATIONS 2",
+          "content": [
+            {
+              "text": "3 Columns Mode",
+              "tag": "NEW",
+              "link": "3-columns-mode"
+            },
+            { "text": "4 Columns Mode", "tag": "", "link": "4-columns-mode" },
+            { "text": "5 Columns Mode", "tag": "", "link": "5-columns-mode" },
+            { "text": "6 Columns Mode", "tag": "", "link": "6-columns-mode" },
+            { "text": "7 Columns Mode", "tag": "", "link": "7-columns-mode" },
+            { "text": "8 Columns Mode", "tag": "", "link": "8-columns-mode" },
+            { "text": "List Mode", "tag": "", "link": "list-mode" }
+          ]
+        }
+      ],
+      "banner": "",
+      "slug": "collections"
+    },
+    {
+      "type": "MEGA-DROPDOWN",
+      "text": "Products",
+      "children": [
+        {
+          "title": "PRODUCT PAGES",
+          "children": [
+            { "text": "Simple Product", "link": "", "tag": "" },
+            { "text": "Variable Product", "link": "", "tag": "" },
+            { "text": "Sale Product", "link": "", "tag": "" },
+            { "text": "Featured & On Sale", "link": "", "tag": "" },
+            { "text": "With Left Sidebar", "link": "", "tag": "" },
+            { "text": "With Right Sidebar", "link": "", "tag": "" },
+            {
+              "text": "Add Cart Sticky",
+              "link": "",
+              "tag": "HOT",
+              "color": "red"
+            },
+            { "text": "Tab Inside", "link": "", "tag": "" }
+          ]
+        },
+        {
+          "title": "PRODUCT LAYOUTS",
+          "children": [
+            {
+              "text": "Grid Images",
+              "link": "",
+              "tag": "NEW",
+              "color": "blue"
+            },
+            { "text": "Masonry", "link": "", "tag": "" },
+            { "text": "Gallery Type", "link": "", "tag": "" },
+            { "text": "Full Width Layout", "link": "", "tag": "" },
+            { "text": "Sticky Info", "link": "", "tag": "" },
+            { "text": "Left & Right Sticky", "link": "", "tag": "" },
+            { "text": "Horizontal Thumb", "link": "", "tag": "" },
+            { "text": "Build Your Own", "link": "", "tag": "" }
+          ]
+        }
+      ],
+      "banner": "",
+      "slug": "products"
+    },
+    {
+      "type": "DROPDOWN",
+      "text": "Pages",
+      "children": [
+        { "text": "About Us", "link": "about-us" },
+        { "text": "Contact Us", "link": "contact-us" },
+        { "text": "My Account", "link": "my-account" },
+        { "text": "FAQs", "link": "faq" },
+        { "text": "Error 404", "link": "error-404" },
+        { "text": "Coming Soon", "link": "coming-soon" }
+      ],
+      "slug": "pages"
+    },
+    {
+      "type": "DROPDOWN",
+      "text": "Blog",
+      "children": [
+        { "text": "Classic", "link": "classic" },
+        { "text": "Listing", "link": "listing" },
+        {
+          "text": "Grid",
+          "sub": [
+            { "text": "Grid 2 columns", "link": "grid-2-columns" },
+            { "text": "Grid 3 columns", "link": "grid-3-columns" },
+            { "text": "Grid 4 columns", "link": "grid-4-columns" },
+            { "text": "Grid sidebar", "link": "grid-sidebar" }
+          ]
+        },
+        {
+          "text": "Masonry",
+          "sub": [
+            { "text": "Masonry 2 columns", "link": "masonry-2-columns" },
+            { "text": "Masonry 3 columns", "link": "masonry-3-columns" },
+            { "text": "Masonry 4 columns", "link": "masonry-4-columns" },
+            { "text": "Masonry sidebar", "link": "masonry-sidebar" }
+          ]
+        },
+        {
+          "text": "Mask",
+          "sub": [
+            { "text": "Blog mask grid", "link": "blog-mask-grid" },
+            { "text": "Blog mask masonry", "link": "blog-mask-masonry" }
+          ]
+        },
+        { "text": "Single Post", "link": "single-post" }
+      ],
+      "slug": "blogs"
+    }
+  ]
+}

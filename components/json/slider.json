@@ -1,0 +1,75 @@
+[
+  {
+    "content": [
+      { "ads": "Buy 2 Get", "color": "black" },
+      { "svg": "" },
+      { "title": "Fashionable", "color": "white" },
+      { "title-par": "Collection", "color": "white" },
+      {
+        "description": "Get Free Shipping on all orders over $99.00",
+        "color": "white"
+      },
+      { "position": "left" },
+      { "background-color": "blue" },
+      { "image": "" }
+    ]
+  },
+  {
+    "content": [
+      {
+        "ads": "COMING SOON",
+        "color": "black",
+        "size": "medium",
+        "font": "normal"
+      },
+      { "svg": "" },
+      {
+        "title": "Riode Birthday",
+        "color": "black",
+        "size": "medium",
+        "font": "medium"
+      },
+      {
+        "title-par": "Sale",
+        "color": "blue",
+        "size": "large",
+        "font": "bold"
+      },
+      {
+        "description": "Up to 70% off on all products online & Free shipping over $99.00",
+        "color": "black",
+        "size": "small",
+        "font": "thin"
+      },
+      { "position": "right" },
+      { "background-color": "gray" },
+      { "image": "" }
+    ]
+  },
+  {
+    "content": [
+      {
+        "ads": "CHECK OUT OUR",
+        "color": "white",
+        "size": "medium",
+        "font": "bold"
+      },
+      { "svg": "" },
+      {
+        "title": "Summer Season's",
+        "color": "white",
+        "size": "large",
+        "font": "bold"
+      },
+      {
+        "description": "Up to 50% off this season's & Get free shipping on all orders over $199.00",
+        "color": "white",
+        "size": "small",
+        "font": "thin"
+      },
+      { "position": "center" },
+      { "background-color": "gray" },
+      { "image": "" }
+    ]
+  }
+]
