@@ -7,7 +7,8 @@
   {
     "iconClassName": "carbon:phone-application",
     "title": "Customer Support",
-    "text": "Instant access to perfect support"
+    "text": "Instant access to perfect support",
+    "bordered": true
   },
   {
     "iconClassName": "ic:baseline-security",

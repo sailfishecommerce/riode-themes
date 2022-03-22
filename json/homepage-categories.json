@@ -1,22 +1,22 @@
 [
   {
     "title": "For Men's",
-    "image": "",
-    "link": ""
+    "image": "/for_men_category.webp",
+    "link": "/category/men"
   },
   {
     "title": "Accessories",
-    "image": "",
-    "link": ""
+    "image": "/accessories_category.webp",
+    "link": "/category/accessories"
   },
   {
     "title": "Fashionable",
-    "image": "",
-    "link": ""
+    "image": "/fashionable_category.webp",
+    "link": "/category/fashion"
   },
   {
     "title": "Cosmetic",
-    "image": "",
-    "link": ""
+    "image": "/cosmetics_category.webp",
+    "link": "/category/cosmetics"
   }
 ]
