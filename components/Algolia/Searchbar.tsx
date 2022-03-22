@@ -5,7 +5,8 @@ export default function Searchbar() {
     <div className="searchbar flex flex-col">
       <input
         type="text"
-        className="border border-blue-700 rounded-lg ring-blue-700"
+        className="border-2 border-blue-700 rounded-lg ring-blue-700 h-10 px-2"
+        placeholder="Search in"
       />
     </div>
   );
