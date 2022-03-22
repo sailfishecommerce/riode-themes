@@ -1,16 +1,21 @@
+import { Icon } from "@iconify/react";
+
 interface BenefitCardProps {
   content: { title: string; text: string; iconClassName: string };
 }
 
 export default function BenefitCard({ content }: BenefitCardProps) {
   return (
-    <div className="flex">
-      <div className="card-icon mr-2">
-        <i className={content.iconClassName}></i>
-      </div>
+    <div className="flex p-4 items-center">
+      <Icon
+        className="mr-4"
+        icon={content.iconClassName}
+        height={30}
+        width={30}
+      />{" "}
       <div className="card-text flex flex-col">
         <h4 className="font-bold">{content.title}</h4>
-        <p>{content.text}</p>
+        <p className="text-gray-500">{content.text}</p>
       </div>
     </div>
   );

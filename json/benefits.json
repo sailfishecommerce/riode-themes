@@ -1,16 +1,16 @@
 [
   {
-    "iconClassName": "fa-light fa-truck-fast",
+    "iconClassName": "mdi:truck-fast-outline",
     "title": "Free Shipping & Return",
     "text": "Free shipping on orders over $99"
   },
   {
-    "iconClassName": "fa-solid fa-phone",
+    "iconClassName": "carbon:phone-application",
     "title": "Customer Support",
     "text": "Instant access to perfect support"
   },
   {
-    "iconClassName": "fa-solid fa-shield-quartered",
+    "iconClassName": "ic:baseline-security",
     "title": "100% Secure Payment",
     "text": "We ensure secure payment"
   }

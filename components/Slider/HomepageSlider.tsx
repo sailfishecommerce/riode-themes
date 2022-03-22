@@ -11,7 +11,7 @@ export default function HomepageSlider() {
           src="/slider_1.webp"
           alt="Slider image 1"
           layout="responsive"
-          height={300}
+          height={450}
           width={1400}
         />
       </SplideSlide>
@@ -20,7 +20,7 @@ export default function HomepageSlider() {
           src="/slider_2.webp"
           alt="Slider image 2"
           layout="responsive"
-          height={300}
+          height={450}
           width={1400}
         />
       </SplideSlide>
