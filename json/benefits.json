@@ -1,16 +1,16 @@
 [
   {
-    "iconClassName": "",
+    "iconClassName": "fa-light fa-truck-fast",
     "title": "Free Shipping & Return",
     "text": "Free shipping on orders over $99"
   },
   {
-    "iconClassName": "",
+    "iconClassName": "fa-solid fa-phone",
     "title": "Customer Support",
     "text": "Instant access to perfect support"
   },
   {
-    "iconClassName": "",
+    "iconClassName": "fa-solid fa-shield-quartered",
     "title": "100% Secure Payment",
     "text": "We ensure secure payment"
   }

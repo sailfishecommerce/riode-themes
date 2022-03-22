@@ -11,7 +11,7 @@
       },
       { "position": "left" },
       { "background-color": "blue" },
-      { "image": "" }
+      { "image": "/slider_1.webp" }
     ]
   },
   {
@@ -43,7 +43,7 @@
       },
       { "position": "right" },
       { "background-color": "gray" },
-      { "image": "" }
+      { "image": "/slider_1.webp" }
     ]
   },
   {
