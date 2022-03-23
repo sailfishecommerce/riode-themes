@@ -1,0 +1,17 @@
+[
+  {
+    "title": "For Men's",
+    "description": "STARTING AT $29.00",
+    "image": "/men_banner.webp"
+  },
+  {
+    "title": "Black Friday Sale",
+    "description": "Up to 20% Off",
+    "image": "/black_friday.webp"
+  },
+  {
+    "title": "Fashions",
+    "description": "30% OFF",
+    "image": "/fashion_banner.webp"
+  }
+]
