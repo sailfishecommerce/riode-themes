@@ -1,83 +1,89 @@
-[
-  [
-    { "type": "title", "name": "Contact Info" },
-    {
-      "type": "phone",
-      "name": "PHONE",
-      "text": "Toll Free (123) 456-7890",
-      "link": "1234567890"
-    },
-    {
-      "type": "email",
-      "name": "EMAIL",
-      "text": "mail@riode.com",
-      "link": "mail@riode.com"
-    },
-    {
-      "type": "text",
-      "name": "ADDRESS",
-      "text": "123 Street Name, City, England"
-    },
-    {
-      "type": "text",
-      "name": "WORKING DAYS/HOURS",
-      "text": "Mon - Sun / 9:00 AM - 8:00 PM"
-    }
+{
+  "section1": [
+    [
+      { "type": "title", "name": "Contact Info" },
+      {
+        "type": "phone",
+        "name": "PHONE",
+        "text": "Toll Free (123) 456-7890",
+        "link": "1234567890"
+      },
+      {
+        "type": "email",
+        "name": "EMAIL",
+        "text": "mail@riode.com",
+        "link": "mail@riode.com"
+      },
+      {
+        "type": "text",
+        "name": "ADDRESS",
+        "text": "123 Street Name, City, England"
+      },
+      {
+        "type": "text",
+        "name": "WORKING DAYS/HOURS",
+        "text": "Mon - Sun / 9:00 AM - 8:00 PM"
+      }
+    ],
+    [
+      { "type": "title", "name": "My Account" },
+      {
+        "type": "link",
+        "text": "About Us",
+        "link": "#about-us"
+      },
+      {
+        "type": "link",
+        "text": "Order History",
+        "link": "#order-history"
+      },
+      {
+        "type": "link",
+        "text": "Returns",
+        "link": "#returns"
+      },
+      {
+        "type": "link",
+        "text": "Custom Service",
+        "link": "#custom-service"
+      },
+      {
+        "type": "link",
+        "text": "Terms & Condition",
+        "link": "#terms-condition"
+      }
+    ],
+    [
+      { "type": "title", "name": "Contact Info" },
+      {
+        "type": "link",
+        "text": "Sign in",
+        "link": "#sign-in"
+      },
+      {
+        "type": "link",
+        "text": "View Cart",
+        "link": "#view-cart"
+      },
+      {
+        "type": "link",
+        "text": "My Wishlist",
+        "link": "#my-wishlist"
+      },
+      {
+        "type": "link",
+        "text": "Track My Order",
+        "link": "#track-my-order"
+      },
+      {
+        "type": "link",
+        "text": "Help",
+        "link": "#help"
+      }
+    ]
   ],
-  [
-    { "type": "title", "name": "My Acccount" },
-    {
-      "type": "link",
-      "text": "About Us",
-      "link": "#about-us"
-    },
-    {
-      "type": "link",
-      "text": "Order History",
-      "link": "#order-history"
-    },
-    {
-      "type": "link",
-      "text": "Returns",
-      "link": "#returns"
-    },
-    {
-      "type": "link",
-      "text": "Custom Service",
-      "link": "#custom-service"
-    },
-    {
-      "type": "link",
-      "text": "Terms & Condition",
-      "link": "#terms-condition"
-    }
-  ],
-  [
-    { "type": "title", "name": "Contact Info" },
-    {
-      "type": "link",
-      "text": "Sign in",
-      "link": "#sign-in"
-    },
-    {
-      "type": "link",
-      "text": "View Cart",
-      "link": "#view-cart"
-    },
-    {
-      "type": "link",
-      "text": "My Wishlist",
-      "link": "#my-wishlist"
-    },
-    {
-      "type": "link",
-      "text": "Track My Order",
-      "link": "#track-my-order"
-    },
-    {
-      "type": "link",
-      "text": "Help",
-      "link": "#help"
-    }
+  "section2": [
+    "Fringilla urna porttitor rhoncus dolor purus luctus venenatis lectus magna fringilla diam maecenas ultricies mi eget mauris.",
+    "Riode@example.com"
   ]
-]
+}

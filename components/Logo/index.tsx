@@ -9,7 +9,7 @@ export default function index({ footer }: Props) {
   const logoSrc = footer ? "/logo-footer.png" : "/riode.svg";
   const imageDimension = footer
     ? {
-        height: 50,
+        height: 40,
         width: 150,
       }
     : {
