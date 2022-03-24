@@ -1,11 +1,11 @@
 interface RatingsProps {
-  review: number;
+  review?: number | any;
   rating: number;
 }
 
 export default function index({ review, rating }: RatingsProps) {
   const reviewText = review > 1 ? "Reviews" : "Review";
-  
+
   return (
     <div className="flex items-center ">
       <span className="rating stars">
@@ -13,7 +13,7 @@ export default function index({ review, rating }: RatingsProps) {
       </span>
       <div className="reviews flex items-center font-thin text-gray">
         (<span className="mx-2">{rating}</span>
-        <span className="mx-2">{reviewText})</span>
+        {reviewText && <span className="mx-2">{reviewText})</span>}
       </div>
     </div>
   );

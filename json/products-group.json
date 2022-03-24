@@ -1,0 +1,71 @@
+[
+  {
+    "category": "Sale",
+    "content": [
+      {
+        "name": "Comfortable Brown Scarf",
+        "price": "$47.34",
+        "rating": 4,
+        "img": "/electric.webp"
+      },
+      {
+        "name": "Chuck Taylor All Star",
+        "price": "$50.00",
+        "rating": 0,
+        "img": "/shoes.webp"
+      },
+      {
+        "name": "Beyond Riode Original T-Shirt",
+        "price": "$50",
+        "rating": 0,
+        "img": "/scarf.webp"
+      }
+    ]
+  },
+  {
+    "category": "Latest Products",
+    "content": [
+      {
+        "name": "Hand Electric Cell",
+        "price": "$26.00",
+        "rating": 3,
+        "img": "/electric.webp"
+      },
+      {
+        "name": "Converse Season Shoes",
+        "price": "$135",
+        "rating": 0,
+        "img": "/shoes.webp"
+      },
+      {
+        "name": "Fashion Women Handbag",
+        "price": "$83",
+        "rating": 0,
+        "img": "/scarf.webp"
+      }
+    ]
+  },
+  {
+    "category": "Popular",
+    "content": [
+      {
+        "name": "Fashion Electric Wrist Watch",
+        "price": "$184",
+        "rating": 5,
+        "img": "/scarf.webp"
+      },
+      {
+        "name": "Women Beautiful Clothing",
+        "price": "$82",
+        "rating": 0,
+        "img": "/shoes.webp"
+      },
+      {
+        "name": "Women's Fashional Handbag",
+        "price": "$52",
+        "rating": 5,
+        "img": "/electric.webp"
+      }
+    ]
+  }
+]

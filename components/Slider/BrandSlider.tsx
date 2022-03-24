@@ -8,7 +8,7 @@ export default function BrandSlider() {
   return (
     <Splide
       options={{ autoplay: true, perPage: 6, type: "loop" }}
-      className="border-t border-b w-2/3 mx-auto items-center border-gray-300 my-8 container justify-center"
+      className="border-t border-b w-2/3 mx-auto items-center border-gray-200 my-8 container justify-center py-6"
     >
       {brandContent.map((content) => (
         <div key={content} className="w-1/6 mx-2 flex justify-center">
