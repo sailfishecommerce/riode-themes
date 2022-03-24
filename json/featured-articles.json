@@ -1,0 +1,23 @@
+[
+  {
+    "date": "27 Feb",
+    "img": "/new_fashion.webp",
+    "title": "New Fashion Style",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typestting...",
+    "link": "#fashion"
+  },
+  {
+    "date": "27 Feb",
+    "img": "/discount_shopping.webp",
+    "title": "30% Discount for Shoes & Bags",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typestting...",
+    "link": "#fashion"
+  },
+  {
+    "date": "27 Feb",
+    "img": "/cyber_week.webp",
+    "title": "20% Off Coupon for Cyber Weekxc",
+    "description": "Lorem Ipsum is simply dummy text of the printing and typestting...",
+    "link": "#fashion"
+  }
+]
