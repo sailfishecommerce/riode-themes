@@ -1,0 +1,38 @@
+[
+  {
+    "img1": "/purple_shirt_1.jpg",
+    "img2": "purple_shirt.jpg",
+    "brand": "THE NORTHLAND",
+    "title": "Sports Top",
+    "price": 160.0,
+    "reviews": 0,
+    "rating": 0
+  },
+  {
+    "img1": "/shoe_1.jpg",
+    "img2": "/shoe_mirror.jpg",
+    "brand": "NIKE",
+    "title": "Casual Convienent Shoes",
+    "price": 160.0,
+    "reviews": 0,
+    "rating": 0
+  },
+  {
+    "img1": "/miltaryShoe.jpg",
+    "img2": "/miltary_Shoe.jpg",
+    "brand": "NIKE",
+    "title": "Military Leather Shoes",
+    "price": 160.0,
+    "reviews": 0,
+    "rating": 0
+  },
+  {
+    "img1": "/converse.jpg",
+    "img2": "converse_mirror.jpg",
+    "brand": "CONVERSE",
+    "title": "Converse blue training shoes",
+    "price": 40.0,
+    "reviews": 2,
+    "rating": 2
+  }
+]

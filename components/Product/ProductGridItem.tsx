@@ -12,13 +12,13 @@ interface ProductGridItemProps {
 
 export default function ProductGridItem({ content }: ProductGridItemProps) {
   return (
-    <div className="flex items-center">
-      <div className="image">
-        <Image src={content.img} alt={content.name} height={200} width={200} />
+    <div className="flex items-center my-2">
+      <div className="image mr-4">
+        <Image src={content.img} alt={content.name} height={150} width={150} />
       </div>
       <div className="text-content flex flex-col">
         <h5 className="title">{content.name}</h5>
-        <p>{content.price}</p>
+        <p className="text-orange-500 font-medium">{content.price}</p>
         <Ratings rating={content.rating} />
       </div>
     </div>

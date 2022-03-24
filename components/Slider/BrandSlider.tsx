@@ -7,7 +7,7 @@ import brandContent from "@/json/brand.json";
 export default function BrandSlider() {
   return (
     <Splide
-      options={{ autoplay: true, perPage: 6, type: "loop" }}
+      options={{ autoplay: true, perPage: 4, type: "loop" }}
       className="border-t border-b w-2/3 mx-auto items-center border-gray-200 my-8 container justify-center py-6"
     >
       {brandContent.map((content) => (

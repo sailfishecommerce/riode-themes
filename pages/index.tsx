@@ -7,6 +7,7 @@ import SummerBanner from "@/components/Banners/SummerBanner";
 import FeaturedArticles from "@/components/Articles/FeaturedArticles";
 import BrandSlider from "@/components/Slider/BrandSlider";
 import ProductGrid from "@/components/Product/ProductGrid";
+import BestSellers from "@/components/BestSellers";
 
 export default function riode() {
   return (
@@ -15,6 +16,7 @@ export default function riode() {
         <HomepageSlider />
         <Benefits />
         <HomepageCategories />
+        <BestSellers />
         <ShopNowBanner />
         <SummerBanner />
         <FeaturedArticles />
