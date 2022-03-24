@@ -19,10 +19,12 @@ export default function FeaturedArticleItem({ article }: articleProps) {
         title={article.title}
       >
         <div className="image-wrapper relative">
-          <div className="date bg-white rounded-md p-3 absolute top-5 left-5 z-20">{article.date}</div>
+          <div className="date bg-white rounded-md p-2 text-sm hover:bg-transparent hover:border-2 font-bold hover:border-white hover:text-white absolute top-5 left-5 z-20">
+            {article.date}
+          </div>
           <Image
             src={article.img}
-            height={250}
+            height={300}
             width={400}
             alt={article.title}
             layout="responsive"
@@ -30,9 +32,9 @@ export default function FeaturedArticleItem({ article }: articleProps) {
           />
         </div>
         <div className="text-content flex flex-col justify-start items-start">
-          <h3 className="text-xl">{article.title}</h3>
+          <h3 className="text-xl font-bold mt-4 mb-2">{article.title}</h3>
           <p className="text-md">{article.description}</p>
-          <button className="button mt-8 text-blue-600 hover:border-blue-600 hover:border-b-2 font-bold">
+          <button className="button mt-8 font-medium text-sm text-blue-600 hover:border-blue-600 hover:border-b-2 font-bold">
             READ MORE
           </button>
         </div>
