@@ -3,6 +3,7 @@ import HomepageSlider from "@/components/Slider/HomepageSlider";
 import Benefits from "@/components/Benefits";
 import HomepageCategories from "@/components/Categories/HomepageCategories";
 import ShopNowBanner from "@/components/Banners/ShopNowBanner";
+import SummerBanner from "@/components/Banners/SummerBanner";
 
 export default function riode() {
   return (
@@ -12,6 +13,7 @@ export default function riode() {
         <Benefits />
         <HomepageCategories />
         <ShopNowBanner />
+        <SummerBanner />
       </main>
     </Applayout>
   );
