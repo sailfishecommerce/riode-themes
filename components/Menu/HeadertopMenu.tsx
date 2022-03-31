@@ -1,19 +1,16 @@
-
-
-const menuArray = [
-  "Account",
-  "EUR",
-  "Contact",
-  "Need Help",
-  "Sign in / Register",
-];
+import headerMenu from "@/json/menu.json";
+import IconLink, { DoubleLinkIcon } from "@/components/Link/IconLink";
 
 export default function HeadertopMenu() {
   return (
     <ul className="flex items-center justify-between">
-      {menuArray.map((menuItem) => (
-        <li className="mx-2" key={menuItem}>{menuItem}</li>
-      ))}
+      {headerMenu.topMenu.map((menuItem) => {
+        return menuItem.type === "LINK-ICON" ? (
+          <IconLink content={menuItem} />
+        ) : menuItem.type === "LINK-ICON-DOUBLE" ? (
+          <DoubleLinkIcon content={menuItem} />
+        ) : null;
+      })}
     </ul>
   );
 }
