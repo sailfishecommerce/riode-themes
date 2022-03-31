@@ -2,29 +2,37 @@ import { useState } from "react";
 import Link from "next/link";
 
 interface DropdownProps {
-  text: string;
-  content: Array<{ text: string; link: string; sub?: any[] }>;
+  content: {
+    text: string;
+    children: Array<{ text: string; link: string; sub?: any[] }>;
+  };
 }
 
-export default function Dropdown({ text, content }: DropdownProps | any) {
+export default function Dropdown({ content }: DropdownProps | any) {
   const [dropdown, showDropdown] = useState(false);
 
   return (
-    <div>
+    <div className="mx-2">
       <div
         onMouseEnter={() => showDropdown(true)}
         onMouseLeave={() => showDropdown(false)}
         className="dropdown text"
       >
-        {text}
+        {content.text}
       </div>
       {dropdown && (
         <div className="dropdown-content">
-          {content.map((item: any) => (
-            <Link key={item.text} href={item.link} passHref>
-              <a title={item.text}>{item.text}</a>
-            </Link>
-          ))}
+          {content.children.map((item: any) => {
+            return item.link ? (
+              <Link key={item.text} href={item.link} passHref>
+                <a title={item.text}>{item.text}</a>
+              </Link>
+            ) : (
+              <a key={item.text} className="mx-2" title={item.text}>
+                {item.text}
+              </a>
+            );
+          })}
         </div>
       )}
     </div>

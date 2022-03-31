@@ -12,7 +12,7 @@ export default function IconLink({ content }: any) {
 }
 
 export function DoubleLinkIcon({ content }: any) {
-  const borderedEnd = "border-r border-gray-100";
+  const borderedEnd = "border-r border-gray-200 pr-2";
   return (
     <div className="flex items-center">
       <i className={content.icon} />
