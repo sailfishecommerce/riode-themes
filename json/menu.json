@@ -228,5 +228,53 @@
       ],
       "slug": "blogs"
     }
+  ],
+  "topMenu": [
+    {
+      "type": "DROPDOWN",
+      "text": "Account",
+      "children": [
+        {
+          "text": "Sign in",
+          "text2": "Register",
+          "link1": "#sign-in",
+          "link2": "#register"
+        },
+        { "text": "Checkout", "link": "contact-us" },
+        { "text": "My compare", "link": "my-account" },
+        { "text": "My wishlist", "link": "faq" }
+      ]
+    },
+    {
+      "type": "DROPDOWN",
+      "text": "EUR",
+      "children": [
+        { "text": "CAD" },
+        { "text": "EUR" },
+        { "text": "GBP" },
+        { "text": "USD" },
+        { "text": "VND" }
+      ]
+    },
+    {
+      "type": "LINK-ICON",
+      "icon": "map",
+      "text": "Contact",
+      "link": "#contact-us"
+    },
+    {
+      "type": "LINK-ICON",
+      "icon": "info",
+      "text": "Need Help",
+      "link": "#need-help"
+    },
+    {
+      "type": "LINK-ICON-DOUBLE",
+      "icon": "user",
+      "group": [
+        { "text": "Sign in", "link": "#sign-in" },
+        { "text": "Register", "link": "#register" }
+      ]
+    }
   ]
 }

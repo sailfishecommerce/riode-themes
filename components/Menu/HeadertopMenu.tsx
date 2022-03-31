@@ -1,3 +1,5 @@
+
+
 const menuArray = [
   "Account",
   "EUR",
