@@ -1,0 +1,16 @@
+[
+  {
+    "icon": "phone",
+    "title": "Call us Now",
+    "text": "0(800) 123-456",
+    "iconPosition": "left"
+  },
+  {
+    "icon": "heart"
+  },
+  {
+    "icon": "cart",
+    "title": "Shopping Cart",
+    "iconPosition": "right"
+  }
+]
