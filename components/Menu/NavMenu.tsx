@@ -22,6 +22,7 @@ export default function NavMenu() {
                 className={`${iconPosition}`}
                 size="2x"
                 color="#2266CC"
+                type=""
                 icon={IconClasses(navList.icon)}
               />
             )}

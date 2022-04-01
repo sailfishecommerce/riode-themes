@@ -229,6 +229,20 @@
       "slug": "blogs"
     }
   ],
+  "menuRight": [
+    {
+      "type": "LINK-ICON",
+      "icon": "discount-tag",
+      "text": "Special Offers",
+      "link": "#special-offers"
+    },
+    {
+      "type": "LINK-ICON",
+      "icon": null,
+      "text": "Buy Riode!",
+      "link": "#sbuy-riode"
+    }
+  ],
   "topMenu": [
     {
       "type": "DROPDOWN",

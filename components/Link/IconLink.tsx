@@ -4,8 +4,8 @@ export default function IconLink({ content }: any) {
   return (
     <Link href={content.link} passHref>
       <a className="mx-2 hover:text-blue-500">
-        <i className={content.icon} />
-        <p>{content.text}</p>
+        {content.icon && <i className={content.icon} />}
+        <p className="font-normal">{content.text}</p>
       </a>
     </Link>
   );
