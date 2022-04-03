@@ -3,15 +3,15 @@ import Link from "next/link";
 export default function IconLink({ content }: any) {
   return content.link ? (
     <Link href={content.link} passHref>
-      <a className="mx-2 hover:text-blue-500">
+      <a className="mx-2 hover:text-blue-500 font-medium">
         {content.icon && <i className={content.icon} />}
-        <p className="font-normal">{content.text}</p>
+        <p className="mb-0">{content.text}</p>
       </a>
     </Link>
   ) : (
-    <a className="mx-2 hover:text-blue-500">
+    <a className="mx-2 hover:text-blue-500 font-medium">
       {content.icon && <i className={content.icon} />}
-      <p className="font-normal">{content.text}</p>
+      <p className="mb-0">{content.text}</p>
     </a>
   );
 }
@@ -25,7 +25,7 @@ export function DoubleLinkIcon({ content }: any) {
         const linkStyle = index === 0 ? borderedEnd : "";
         return (
           <Link key={item.text} href={item.link} passHref>
-            <a className={`${linkStyle} mx-2 hover:text-blue-500`}>
+            <a className={`${linkStyle} mx-2 hover:text-blue-500 font-medium`}>
               <p>{item.text}</p>
             </a>
           </Link>

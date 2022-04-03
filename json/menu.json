@@ -13,7 +13,7 @@
               "text": "Demo 03",
               "tag": "coming",
               "link": "demo-03",
-              "color": "green"
+              "color": "bg-green-500"
             },
             { "text": "Demo 04", "tag": "", "link": "demo-04" },
             { "text": "Demo 05", "tag": "", "link": "demo-05" },
@@ -28,13 +28,13 @@
               "text": "Demo 13",
               "tag": "coming",
               "link": "demo-13",
-              "color": "green"
+              "color": "bg-green-500"
             },
             {
               "text": "Demo 14",
               "tag": "coming",
               "link": "demo-14",
-              "color": "green"
+              "color": "bg-green-500"
             },
             { "text": "Demo 15", "tag": "", "link": "demo-15" },
             { "text": "Demo 16", "tag": "", "link": "demo-16" },
@@ -43,7 +43,7 @@
               "text": "Demo 18",
               "tag": "coming",
               "link": "demo-18",
-              "color": "green"
+              "color": "bg-green-500"
             },
             { "text": "Demo 19", "tag": "", "link": "demo-19" }
           ]
@@ -142,30 +142,30 @@
       "children": [
         {
           "title": "PRODUCT PAGES",
-          "children": [
+          "content": [
             { "text": "Simple Product", "link": "", "tag": "" },
             { "text": "Variable Product", "link": "", "tag": "" },
             { "text": "Sale Product", "link": "", "tag": "" },
-            { "text": "Featured & On Sale", "link": "", "tag": "" },
+            { "text": "Featubg-red-500 & On Sale", "link": "", "tag": "" },
             { "text": "With Left Sidebar", "link": "", "tag": "" },
             { "text": "With Right Sidebar", "link": "", "tag": "" },
             {
               "text": "Add Cart Sticky",
               "link": "",
               "tag": "HOT",
-              "color": "red"
+              "color": "bg-red-500"
             },
             { "text": "Tab Inside", "link": "", "tag": "" }
           ]
         },
         {
           "title": "PRODUCT LAYOUTS",
-          "children": [
+          "content": [
             {
               "text": "Grid Images",
               "link": "",
               "tag": "NEW",
-              "color": "blue"
+              "color": "bg-blue-500"
             },
             { "text": "Masonry", "link": "", "tag": "" },
             { "text": "Gallery Type", "link": "", "tag": "" },
@@ -235,7 +235,7 @@
       "link": "#about-us"
     }
   ],
-  "menuRight": [
+  "menuright": [
     {
       "type": "LINK-ICON",
       "icon": "discount-tag",
