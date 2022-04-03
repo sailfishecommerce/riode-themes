@@ -1,13 +1,18 @@
 import Link from "next/link";
 
 export default function IconLink({ content }: any) {
-  return (
+  return content.link ? (
     <Link href={content.link} passHref>
       <a className="mx-2 hover:text-blue-500">
         {content.icon && <i className={content.icon} />}
         <p className="font-normal">{content.text}</p>
       </a>
     </Link>
+  ) : (
+    <a className="mx-2 hover:text-blue-500">
+      {content.icon && <i className={content.icon} />}
+      <p className="font-normal">{content.text}</p>
+    </a>
   );
 }
 

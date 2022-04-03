@@ -227,6 +227,12 @@
         { "text": "Single Post", "link": "single-post" }
       ],
       "slug": "blogs"
+    },
+    {
+      "type": "LINK-ICON",
+      "icon": null,
+      "text": "About us",
+      "link": "#about-us"
     }
   ],
   "menuRight": [
@@ -240,7 +246,7 @@
       "type": "LINK-ICON",
       "icon": null,
       "text": "Buy Riode!",
-      "link": "#sbuy-riode"
+      "link": "#buy-riode"
     }
   ],
   "topMenu": [

@@ -12,9 +12,10 @@ export default function NavMenu() {
         const textPosition = navList.iconPosition?.includes("right")
           ? "order-1"
           : "order-2";
-        console.log("IconClasses(navList.icon)", IconClasses(navList.icon));
         const centeredIcon =
-          index === 1 ? "border-r-2 border-l-2 rder-2 border-gray-300 px-6" : "";
+          index === 1
+            ? "border-r-2 border-l-2 rder-2 border-gray-300 px-6"
+            : "";
         return (
           <li className={`flex items-center mx-2 ${centeredIcon}`} key={index}>
             {navList.icon && (
