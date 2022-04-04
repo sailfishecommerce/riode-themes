@@ -1,75 +1,56 @@
 [
   {
-    "content": [
-      { "ads": "Buy 2 Get", "color": "black" },
-      { "svg": "" },
-      { "title": "Fashionable", "color": "white" },
-      { "title-par": "Collection", "color": "white" },
-      {
-        "description": "Get Free Shipping on all orders over $99.00",
-        "color": "white"
-      },
-      { "position": "left" },
-      { "background-color": "blue" },
-      { "image": "/slider_1.webp" }
-    ]
+    "image": "/slider_1.webp",
+    "ads": "Buy 2 Get",
+    "adsColor": "black",
+    "svg": "",
+    "title": "Fashionable",
+    "titleColor": "white",
+    "titlePar": "Collection",
+    "titleParColor": "white",
+    "description": "Get Free Shipping on all orders over $99.00",
+    "color": "white",
+    "position": "left",
+    "background-color": "blue"
   },
   {
-    "content": [
-      {
-        "ads": "COMING SOON",
-        "color": "black",
-        "size": "medium",
-        "font": "normal"
-      },
-      { "svg": "" },
-      {
-        "title": "Riode Birthday",
-        "color": "black",
-        "size": "medium",
-        "font": "medium"
-      },
-      {
-        "title-par": "Sale",
-        "color": "blue",
-        "size": "large",
-        "font": "bold"
-      },
-      {
-        "description": "Up to 70% off on all products online & Free shipping over $99.00",
-        "color": "black",
-        "size": "small",
-        "font": "thin"
-      },
-      { "position": "right" },
-      { "background-color": "gray" },
-      { "image": "/slider_1.webp" }
-    ]
+    "ads": "COMING SOON",
+    "adsColor": "black",
+    "adSize": "medium",
+    "adsFont": "normal",
+    "svg": "",
+    "title": "Riode Birthday",
+    "titleColor": "black",
+    "titleSize": "medium",
+    "titlefont": "medium",
+    "titlePar": "Sale",
+    "titleParColor": "blue",
+    "titleParSize": "large",
+    "titleParFont": "bold",
+    "description": "Up to 70% off on all products online & Free shipping over $99.00",
+    "color": "black",
+    "size": "small",
+    "font": "thin",
+    "position": "right",
+    "background-color": "gray",
+    "image": "/slider_2.webp"
   },
   {
-    "content": [
-      {
-        "ads": "CHECK OUT OUR",
-        "color": "white",
-        "size": "medium",
-        "font": "bold"
-      },
-      { "svg": "" },
-      {
-        "title": "Summer Season's",
-        "color": "white",
-        "size": "large",
-        "font": "bold"
-      },
-      {
-        "description": "Up to 50% off this season's & Get free shipping on all orders over $199.00",
-        "color": "white",
-        "size": "small",
-        "font": "thin"
-      },
-      { "position": "center" },
-      { "background-color": "gray" },
-      { "image": "" }
-    ]
+    "ads": "CHECK OUT OUR",
+    "adsColor": "white",
+    "adSize": "medium",
+    "adsfont": "bold",
+    "svg": "",
+    "title": "Summer Season's",
+    "titleColor": "white",
+    "titleSize": "large",
+    "titleFont": "bold",
+    "description": "Up to 50% off this season's & Get free shipping on all orders over $199.00",
+    "color": "white",
+    "size": "small",
+    "font": "thin",
+    "position": "center",
+    "background-color": "gray",
+    "image": "/slider_1.webp"
   }
 ]

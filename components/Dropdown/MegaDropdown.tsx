@@ -1,4 +1,4 @@
-import { Fragment, useState } from "react";
+import {  useState } from "react";
 import Link from "next/link";
 import DropdownCaret from "./DropdownCaret";
 
@@ -20,7 +20,7 @@ export default function MegaDropdown({ content }: DropdownProps | any) {
       <div className="flex justify-center">
         <div className="dropdown relative">
           <button
-            onMouseEnter={() => setActive(!active)}
+            onMouseEnter={() => setActive(true)}
             className="px-2 ml-2 lg:px-4 py-2 font-medium text-xs leading-tight uppercase hover:text-blue-700 active:bg-red-800 active:shadow-lg active:text-white transition duration-150 ease-in-out flex z-50 items-center whitespace-nowrap"
             type="button"
             id="dropdownMenuButton1"
@@ -34,6 +34,7 @@ export default function MegaDropdown({ content }: DropdownProps | any) {
             <ul
               className="min-w-max justify-between shadow-lg absolute bg-white text-base z-40 float-left py-2 list-none top-6 flex items-center text-left rounded-lg shadow-lg mt-1 m-0 bg-clip-padding border-none"
               aria-labelledby="dropdownMenuButton1"
+              onMouseLeave={() => setActive(false)}
             >
               {content.children.map((item: any, index: number) => {
                 return (
