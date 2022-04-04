@@ -2,6 +2,7 @@ import {
   faHeart,
   faPhone,
   faShoppingBag,
+  faStar,
 } from "@fortawesome/free-solid-svg-icons";
 
 export default function IconClasses(iconClassName: string):any {
@@ -14,6 +15,9 @@ export default function IconClasses(iconClassName: string):any {
     }
     case "cart": {
       return faShoppingBag;
+    }
+    case "star":{
+      return faStar
     }
   }
 }
