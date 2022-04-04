@@ -15,7 +15,7 @@ export default function FeaturedArticleItem({ article }: articleProps) {
   return (
     <Link href={article.link} passHref>
       <a
-        className="flex flex-col bg-white shadow-lg rounded-md mx-6 p-6 px-8 border-1"
+        className="flex flex-col bg-white shadow-lg rounded-md mx-6 p-6 border-1"
         title={article.title}
       >
         <div className="image-wrapper relative">

@@ -13,7 +13,7 @@ interface ProductGridItemProps {
 
 export default function ProductGridItem({ content }: ProductGridItemProps) {
   return (
-    <div className="flex items-center my-2">
+    <div className="flex hover:bg-gray-50 productGridItem items-center my-2 pr-4">
       <Link href={`#${content.name}`} passHref>
         <a className="flex items-center my-2" title={content.name}>
           <div className="image mr-4">
@@ -31,6 +31,13 @@ export default function ProductGridItem({ content }: ProductGridItemProps) {
           </div>
         </a>
       </Link>
+      <style jsx>
+        {`
+          .productGridItem:hover h5 {
+            color: blue;
+          }
+        `}
+      </style>
     </div>
   );
 }
