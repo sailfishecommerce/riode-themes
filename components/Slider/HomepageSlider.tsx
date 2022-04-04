@@ -9,17 +9,21 @@ export default function HomepageSlider() {
     <Splide>
       {sliderContent.map((item, index) => (
         <SplideSlide className="flex items-center" key={index}>
-          <div className="flex items-center relative" key={index}>
-            <div className="text-content flex flex-col">
-              <h3>{item.title}</h3>
+          <div className="flex items-center relative mx-auto" key={index}>
+            <div className="absolute top-0 left-0 mx-auto z-40 w-screen h-full flex items-center">
+              <div className="container flex mx-auto">
+                <div className="text-content flex flex-col text-white">
+                  <h3 className="text-4xl font-bold">{item.title}</h3>
+                </div>
+              </div>
             </div>
-            <div className="image-wrapper solute w-full h-full">
+            <div className="image-wrapper w-screen">
               <Image
                 src={item.image}
-                alt="Slider image 1"
-                height={450}
+                alt={item.title}
+                height={500}
+                width={1500}
                 layout="responsive"
-                width={1400}
               />
             </div>
           </div>

@@ -12,8 +12,8 @@ export default function index({ review, rating }: RatingsProps) {
         <i className="fa-star mr-1" />
       </span>
       <div className="reviews flex items-center font-thin text-gray">
-        (<span className="mx-2">{rating}</span>
-        {reviewText && <span className="mx-2">{reviewText})</span>}
+        (<span className="mx-1">{rating}</span>
+        {reviewText && <span>{reviewText})</span>}
       </div>
     </div>
   );
